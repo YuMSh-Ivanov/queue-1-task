@@ -23,7 +23,7 @@
 
 ## Модификация.
 
-Добавьте в каждый класс два метода:
+Добавьте в каждый класс два метода (и контракты к ним):
 - `indexOf(Object)` — Вернуть **минимальный** индекс, по которому находится элемент [равный](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)) данному. 
 - `lastIndexOf(Object)` — Вернуть **максимальный** индекс, по которому находится элемент [равный](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)) данному.
 

@@ -1,7 +1,7 @@
 package queue;
 
 public class ArrayQueueWrapper implements QueueWrapper {
-    private final ArrayQueue data;
+    protected final ArrayQueue data;
 
     public ArrayQueueWrapper() {
         data = new ArrayQueue();

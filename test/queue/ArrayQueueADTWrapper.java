@@ -1,7 +1,7 @@
 package queue;
 
 public class ArrayQueueADTWrapper implements QueueWrapper {
-    private final ArrayQueueADT data;
+    protected final ArrayQueueADT data;
 
     public ArrayQueueADTWrapper() {
         this.data = new ArrayQueueADT();
